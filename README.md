@@ -4,7 +4,7 @@ using [jsDelivr Github CDN](https://www.jsdelivr.com/feature) and [mod_pagespeed
 
 ## In Apache pagespeed.conf:
 
-This will enable canonicalization for ajaxCallback.js (SPIP 3.1.x) [jsDelivr Github CDN](https://www.jsdelivr.com/feature) - The parameter below will enable detection from this librarie size and checksum :
+This will enable canonicalization for ajaxCallback.js (SPIP 3.1.x) using [jsDelivr Github CDN](https://www.jsdelivr.com/feature) - The parameter below will enable detection from this librarie size and checksum :
  ```
  ModPagespeedEnableFilters canonicalize_javascript_libraries
  ```
