@@ -13,7 +13,7 @@ This will enable canonicalization for ajaxCallback.js (SPIP 3.1.x) using [jsDeli
  ModPagespeedLibrary 21074 NvlVPCOPnd86d229dLuoo \
  //cdn.jsdelivr.net/gh/opalesurfcasting/ajaxCallback.js@v1.0/ajaxCallback.min.js
  ```
- will enable canonicalization for jquery.autosave.js, also based on file size 21074 and checksum. This is needed as this file is not in default mod_pagespeed [canonicalized libraries list](https://github.com/pagespeed/mod_pagespeed/blob/master/net/instaweb/genfiles/conf/pagespeed_libraries.conf).
+ will enable canonicalization for ajaxCallback.js, also based on file size 21074 and checksum. This is needed as this file is not in default mod_pagespeed [canonicalized libraries list](https://github.com/pagespeed/mod_pagespeed/blob/master/net/instaweb/genfiles/conf/pagespeed_libraries.conf).
  
  ## Find the size and checksum :
  
