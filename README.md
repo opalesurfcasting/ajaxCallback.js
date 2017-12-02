@@ -21,17 +21,17 @@ This will enable canonicalization for ajaxCallback.js (SPIP 3.1.x) using [jsDeli
  
 ## Direct urls :
  
- using opalesurfcasting Github repository :
+ - using opalesurfcasting Github repository :
  
  raw : https://cdn.jsdelivr.net/gh/opalesurfcasting/ajaxCallback.js@v1.0/ajaxCallback.js
  
  minified : https://cdn.jsdelivr.net/gh/opalesurfcasting/ajaxCallback.js@v1.0/ajaxCallback.min.js
  
- using Spip Github repository (better, maybe more users) :
+ - using Spip Github repository (better, maybe there will be more users) :
  
- raw : https://cdn.jsdelivr.net/gh/opalesurfcasting/ajaxCallback.js@v1.0/ajaxCallback.js
+ raw : https://cdn.jsdelivr.net/gh/spip/SPIP@spip-3.1.6/prive/javascript/ajaxCallback.min.js
  
- minified : https://cdn.jsdelivr.net/gh/opalesurfcasting/ajaxCallback.js@v1.0/ajaxCallback.min.js
+ minified : https://cdn.jsdelivr.net/gh/spip/SPIP@spip-3.1.6/prive/javascript/ajaxCallback.min.js
  
  ## Notes :
  
