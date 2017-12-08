@@ -11,7 +11,7 @@ This will enable canonicalization for ajaxCallback.js (SPIP 3.1.x) using [jsDeli
  Adding this  :
  ```
  ModPagespeedLibrary 21074 NvlVPCOPnd86d229dLuoo \
- //cdn.jsdelivr.net/gh/opalesurfcasting/ajaxCallback.js@v1.0/ajaxCallback.min.js
+ //cdn.jsdelivr.net/gh/spip/SPIP@spip-3.1.6/prive/javascript/ajaxCallback.min.js
  ```
  will enable canonicalization for ajaxCallback.js, also based on file size 21074 and checksum. This is needed as this file is not in default mod_pagespeed [canonicalized libraries list](https://github.com/pagespeed/mod_pagespeed/blob/master/net/instaweb/genfiles/conf/pagespeed_libraries.conf).
  
@@ -20,16 +20,10 @@ This will enable canonicalization for ajaxCallback.js (SPIP 3.1.x) using [jsDeli
  `pagespeed_js_minify --print_size_and_hash library.js` - [Find the size and checksum](https://www.modpagespeed.com/doc/filter-canonicalize-js)
  
 ## Direct urls :
+
+[![](https://data.jsdelivr.com/v1/package/gh/spip/SPIP/badge?style=rounded)](https://www.jsdelivr.com/package/gh/spip/SPIP)
  
- - using opalesurfcasting Github repository :
- 
- raw : https://cdn.jsdelivr.net/gh/opalesurfcasting/ajaxCallback.js@v1.0/ajaxCallback.js
- 
- minified : https://cdn.jsdelivr.net/gh/opalesurfcasting/ajaxCallback.js@v1.0/ajaxCallback.min.js
- 
- - using Spip Github repository (better, maybe there will be more users) :
- 
- raw : https://cdn.jsdelivr.net/gh/spip/SPIP@spip-3.1.6/prive/javascript/ajaxCallback.min.js
+  raw : https://cdn.jsdelivr.net/gh/spip/SPIP@spip-3.1.6/prive/javascript/ajaxCallback.min.js
  
  minified : https://cdn.jsdelivr.net/gh/spip/SPIP@spip-3.1.6/prive/javascript/ajaxCallback.min.js
  
